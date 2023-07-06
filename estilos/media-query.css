@@ -8,24 +8,17 @@ Tablet:  de 768px até 992px
 Desktop: de 992px até 1200px
 Grandes telas acima de 1201px
 
-
-/* Typical Device Breakpoints
-
-Pequenas Telas: até 600px
-Celular: de 320px até 480px
-Tablet:  de 768px até 992px
-Desktop: de 1025px até 1200px
-Grandes telas acima de 1201px
 */
 
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) { /* Tablet */
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     
     section#login {
         width: 80vw;
+        height: 280px;
     }
 
     section#login > div#imagem {
@@ -40,13 +33,14 @@ Grandes telas acima de 1201px
     }
 }
 
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 993px) { /* Desktop */
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     
     section#login {
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -65,6 +59,7 @@ Grandes telas acima de 1201px
     }
 
     div#form > p {
-        font-size: 1.3em;
+        font-size: 1.1em;
+        margin: 20px 0px;
     }
 }
