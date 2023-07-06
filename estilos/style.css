@@ -30,7 +30,6 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
     
@@ -38,7 +37,8 @@ section#login {
     width: 250px;
     height: 525px;
     border-radius: 20px;
-
+    
+    transform: translate(-50%, -50%);
     transition: width .5s, height .5s;
     transition-timing-function: ease;
 }
@@ -94,8 +94,9 @@ div.campo > input {
     border-radius: 8px;
     width: calc(100% - 45px);
     height: 100%;
+    padding: 4px;
     transform: translateY(-11px);
-    padding: 4px
+
 }
 
 div.campo > input:focus:focus-within {
