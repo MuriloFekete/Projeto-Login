@@ -59,4 +59,12 @@ Grandes telas acima de 1201px
         float: left;
         width: 50%;
     }
+
+    div#form > h1 {
+        font-size: 2em;
+    }
+
+    div#form > p {
+        font-size: 1.3em;
+    }
 }
